@@ -37,4 +37,57 @@ nav ul li a:hover{
 
 .head {
     color: white;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.head h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+span {
+    color: orange;
+}
+
+.head p{
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.head a{
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+    padding: 10px 18px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.image {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.image img{
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.image:hover .shape{
+    bottom: 40px;
+}
+
+.image:hover .profil{
+    left: 45%;
 }
