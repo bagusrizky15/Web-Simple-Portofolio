@@ -1,4 +1,4 @@
 # Web-Simple-Portofolio
 prev
 
-<img src="prev.png" height=600px/>
+<img src="prev.png" height=300px/>
